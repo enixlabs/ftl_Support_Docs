@@ -32,5 +32,17 @@ with, as you want to be making sure you've got no issues with the route to the a
 ![WinMTR](assets/imgs/img_2.png)  
 
 Once you've added the IP address, hit start, and the program will start to trace the route of your connection.  
+![](assets/imgs/img_3.png)  
+Leave the test running for roughly 20 minutes and if there are no issues, it should look as clean as the one above. 
+However, if you notice **%loss** on one of the routes (The ones between your localhost & connected site, in our 
+case, it is the jumps between 2 - 9).  
+
+![](assets/imgs/img_4.png) This is a routing path, which is identified as such by the FQDN. If you have an issue 
+with drops on one of these, these are run by **Third Parties** and unfortunately if the drop is on one of these, unless 
+it is a **Provider FQDN** (Ours shows as ZEN, which is our provider), then there is not a lot you can do, other than 
+to report it. 9/10 it won't get fixed, unless it is major disruption. If it's a provider one, they can check 
+for any faults within their distribution network.  
+  
+
 
 
